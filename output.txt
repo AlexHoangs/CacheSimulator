@@ -1,0 +1,142 @@
+Problem 8.10a
+Address:74	BlkOfs:0	Set:13	Tag: 1	Hit:false	Cache:[][][][][][][][][][][][][][1][][]
+Address:a0	BlkOfs:0	Set:8	Tag: 2	Hit:false	Cache:[][][][][][][][][2][][][][][1][][]
+Address:78	BlkOfs:0	Set:14	Tag: 1	Hit:false	Cache:[][][][][][][][][2][][][][][1][1][]
+Address:38c	BlkOfs:0	Set:3	Tag: 14	Hit:false	Cache:[][][][14][][][][][2][][][][][1][1][]
+Address:ac	BlkOfs:0	Set:11	Tag: 2	Hit:false	Cache:[][][][14][][][][][2][][][2][][1][1][]
+Address:84	BlkOfs:0	Set:1	Tag: 2	Hit:false	Cache:[][2][][14][][][][][2][][][2][][1][1][]
+Address:88	BlkOfs:0	Set:2	Tag: 2	Hit:false	Cache:[][2][2][14][][][][][2][][][2][][1][1][]
+Address:8c	BlkOfs:0	Set:3	Tag: 2	Hit:false	Cache:[][2][2][2][][][][][2][][][2][][1][1][]
+Address:7c	BlkOfs:0	Set:15	Tag: 1	Hit:false	Cache:[][2][2][2][][][][][2][][][2][][1][1][1]
+Address:34	BlkOfs:0	Set:13	Tag: 0	Hit:false	Cache:[][2][2][2][][][][][2][][][2][][0][1][1]
+Address:38	BlkOfs:0	Set:14	Tag: 0	Hit:false	Cache:[][2][2][2][][][][][2][][][2][][0][0][1]
+Address:13c	BlkOfs:0	Set:15	Tag: 4	Hit:false	Cache:[][2][2][2][][][][][2][][][2][][0][0][4]
+Address:388	BlkOfs:0	Set:2	Tag: 14	Hit:false	Cache:[][2][14][2][][][][][2][][][2][][0][0][4]
+Address:18c	BlkOfs:0	Set:3	Tag: 6	Hit:false	Cache:[][2][14][6][][][][][2][][][2][][0][0][4]
+Pass 1 hits:0 = 0%
+Pass 1 misses:14 = 100%
+
+Address:74	BlkOfs:0	Set:13	Tag: 1	Hit:false	Cache:[][2][14][6][][][][][2][][][2][][1][0][4]
+Address:a0	BlkOfs:0	Set:8	Tag: 2	Hit:true	Cache:[][2][14][6][][][][][2][][][2][][1][0][4]
+Address:78	BlkOfs:0	Set:14	Tag: 1	Hit:false	Cache:[][2][14][6][][][][][2][][][2][][1][1][4]
+Address:38c	BlkOfs:0	Set:3	Tag: 14	Hit:false	Cache:[][2][14][14][][][][][2][][][2][][1][1][4]
+Address:ac	BlkOfs:0	Set:11	Tag: 2	Hit:true	Cache:[][2][14][14][][][][][2][][][2][][1][1][4]
+Address:84	BlkOfs:0	Set:1	Tag: 2	Hit:true	Cache:[][2][14][14][][][][][2][][][2][][1][1][4]
+Address:88	BlkOfs:0	Set:2	Tag: 2	Hit:false	Cache:[][2][2][14][][][][][2][][][2][][1][1][4]
+Address:8c	BlkOfs:0	Set:3	Tag: 2	Hit:false	Cache:[][2][2][2][][][][][2][][][2][][1][1][4]
+Address:7c	BlkOfs:0	Set:15	Tag: 1	Hit:false	Cache:[][2][2][2][][][][][2][][][2][][1][1][1]
+Address:34	BlkOfs:0	Set:13	Tag: 0	Hit:false	Cache:[][2][2][2][][][][][2][][][2][][0][1][1]
+Address:38	BlkOfs:0	Set:14	Tag: 0	Hit:false	Cache:[][2][2][2][][][][][2][][][2][][0][0][1]
+Address:13c	BlkOfs:0	Set:15	Tag: 4	Hit:false	Cache:[][2][2][2][][][][][2][][][2][][0][0][4]
+Address:388	BlkOfs:0	Set:2	Tag: 14	Hit:false	Cache:[][2][14][2][][][][][2][][][2][][0][0][4]
+Address:18c	BlkOfs:0	Set:3	Tag: 6	Hit:false	Cache:[][2][14][6][][][][][2][][][2][][0][0][4]
+Pass 2 hits:3 = 21.4286%
+Pass 2 misses:11 = 78.5714%
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Problem 8.10b
+Address:74	BlkOfs:1	Set:0	Tag: 14	Hit:false	Cache:[14]
+Address:a0	BlkOfs:0	Set:0	Tag: 20	Hit:false	Cache:[14, 20]
+Address:78	BlkOfs:0	Set:0	Tag: 15	Hit:false	Cache:[14, 20, 15]
+Address:38c	BlkOfs:1	Set:0	Tag: 113	Hit:false	Cache:[14, 20, 15, 113]
+Address:ac	BlkOfs:1	Set:0	Tag: 21	Hit:false	Cache:[14, 20, 15, 113, 21]
+Address:84	BlkOfs:1	Set:0	Tag: 16	Hit:false	Cache:[14, 20, 15, 113, 21, 16]
+Address:88	BlkOfs:0	Set:0	Tag: 17	Hit:false	Cache:[14, 20, 15, 113, 21, 16, 17]
+Address:8c	BlkOfs:1	Set:0	Tag: 17	Hit:true	Cache:[14, 20, 15, 113, 21, 16, 17]
+Address:7c	BlkOfs:1	Set:0	Tag: 15	Hit:true	Cache:[14, 20, 113, 21, 16, 17, 15]
+Address:34	BlkOfs:1	Set:0	Tag: 6	Hit:false	Cache:[14, 20, 113, 21, 16, 17, 15, 6]
+Address:38	BlkOfs:0	Set:0	Tag: 7	Hit:false	Cache:[20, 113, 21, 16, 17, 15, 6, 7]
+Address:13c	BlkOfs:1	Set:0	Tag: 39	Hit:false	Cache:[113, 21, 16, 17, 15, 6, 7, 39]
+Address:388	BlkOfs:0	Set:0	Tag: 113	Hit:true	Cache:[21, 16, 17, 15, 6, 7, 39, 113]
+Address:18c	BlkOfs:1	Set:0	Tag: 49	Hit:false	Cache:[16, 17, 15, 6, 7, 39, 113, 49]
+Pass 1 hits:3 = 21.4286%
+Pass 1 misses:11 = 78.5714%
+
+Address:74	BlkOfs:1	Set:0	Tag: 14	Hit:false	Cache:[17, 15, 6, 7, 39, 113, 49, 14]
+Address:a0	BlkOfs:0	Set:0	Tag: 20	Hit:false	Cache:[15, 6, 7, 39, 113, 49, 14, 20]
+Address:78	BlkOfs:0	Set:0	Tag: 15	Hit:true	Cache:[6, 7, 39, 113, 49, 14, 20, 15]
+Address:38c	BlkOfs:1	Set:0	Tag: 113	Hit:true	Cache:[6, 7, 39, 49, 14, 20, 15, 113]
+Address:ac	BlkOfs:1	Set:0	Tag: 21	Hit:false	Cache:[7, 39, 49, 14, 20, 15, 113, 21]
+Address:84	BlkOfs:1	Set:0	Tag: 16	Hit:false	Cache:[39, 49, 14, 20, 15, 113, 21, 16]
+Address:88	BlkOfs:0	Set:0	Tag: 17	Hit:false	Cache:[49, 14, 20, 15, 113, 21, 16, 17]
+Address:8c	BlkOfs:1	Set:0	Tag: 17	Hit:true	Cache:[49, 14, 20, 15, 113, 21, 16, 17]
+Address:7c	BlkOfs:1	Set:0	Tag: 15	Hit:true	Cache:[49, 14, 20, 113, 21, 16, 17, 15]
+Address:34	BlkOfs:1	Set:0	Tag: 6	Hit:false	Cache:[14, 20, 113, 21, 16, 17, 15, 6]
+Address:38	BlkOfs:0	Set:0	Tag: 7	Hit:false	Cache:[20, 113, 21, 16, 17, 15, 6, 7]
+Address:13c	BlkOfs:1	Set:0	Tag: 39	Hit:false	Cache:[113, 21, 16, 17, 15, 6, 7, 39]
+Address:388	BlkOfs:0	Set:0	Tag: 113	Hit:true	Cache:[21, 16, 17, 15, 6, 7, 39, 113]
+Address:18c	BlkOfs:1	Set:0	Tag: 49	Hit:false	Cache:[16, 17, 15, 6, 7, 39, 113, 49]
+Pass 2 hits:5 = 35.7143%
+Pass 2 misses:9 = 64.2857%
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Problem 8.10c
+Address:74	BlkOfs:1	Set:2	Tag: 3	Hit:false	Cache:[][][3][]
+Address:a0	BlkOfs:0	Set:0	Tag: 5	Hit:false	Cache:[5][][3][]
+Address:78	BlkOfs:0	Set:3	Tag: 3	Hit:false	Cache:[5][][3][3]
+Address:38c	BlkOfs:1	Set:1	Tag: 28	Hit:false	Cache:[5][28][3][3]
+Address:ac	BlkOfs:1	Set:1	Tag: 5	Hit:false	Cache:[5][28, 5][3][3]
+Address:84	BlkOfs:1	Set:0	Tag: 4	Hit:false	Cache:[5, 4][28, 5][3][3]
+Address:88	BlkOfs:0	Set:1	Tag: 4	Hit:false	Cache:[5, 4][5, 4][3][3]
+Address:8c	BlkOfs:1	Set:1	Tag: 4	Hit:true	Cache:[5, 4][5, 4][3][3]
+Address:7c	BlkOfs:1	Set:3	Tag: 3	Hit:true	Cache:[5, 4][5, 4][3][3]
+Address:34	BlkOfs:1	Set:2	Tag: 1	Hit:false	Cache:[5, 4][5, 4][3, 1][3]
+Address:38	BlkOfs:0	Set:3	Tag: 1	Hit:false	Cache:[5, 4][5, 4][3, 1][3, 1]
+Address:13c	BlkOfs:1	Set:3	Tag: 9	Hit:false	Cache:[5, 4][5, 4][3, 1][1, 9]
+Address:388	BlkOfs:0	Set:1	Tag: 28	Hit:false	Cache:[5, 4][4, 28][3, 1][1, 9]
+Address:18c	BlkOfs:1	Set:1	Tag: 12	Hit:false	Cache:[5, 4][28, 12][3, 1][1, 9]
+Pass 1 hits:2 = 14.2857%
+Pass 1 misses:12 = 85.7143%
+
+Address:74	BlkOfs:1	Set:2	Tag: 3	Hit:true	Cache:[5, 4][28, 12][1, 3][1, 9]
+Address:a0	BlkOfs:0	Set:0	Tag: 5	Hit:true	Cache:[4, 5][28, 12][1, 3][1, 9]
+Address:78	BlkOfs:0	Set:3	Tag: 3	Hit:false	Cache:[4, 5][28, 12][1, 3][9, 3]
+Address:38c	BlkOfs:1	Set:1	Tag: 28	Hit:true	Cache:[4, 5][12, 28][1, 3][9, 3]
+Address:ac	BlkOfs:1	Set:1	Tag: 5	Hit:false	Cache:[4, 5][28, 5][1, 3][9, 3]
+Address:84	BlkOfs:1	Set:0	Tag: 4	Hit:true	Cache:[5, 4][28, 5][1, 3][9, 3]
+Address:88	BlkOfs:0	Set:1	Tag: 4	Hit:false	Cache:[5, 4][5, 4][1, 3][9, 3]
+Address:8c	BlkOfs:1	Set:1	Tag: 4	Hit:true	Cache:[5, 4][5, 4][1, 3][9, 3]
+Address:7c	BlkOfs:1	Set:3	Tag: 3	Hit:true	Cache:[5, 4][5, 4][1, 3][9, 3]
+Address:34	BlkOfs:1	Set:2	Tag: 1	Hit:true	Cache:[5, 4][5, 4][3, 1][9, 3]
+Address:38	BlkOfs:0	Set:3	Tag: 1	Hit:false	Cache:[5, 4][5, 4][3, 1][3, 1]
+Address:13c	BlkOfs:1	Set:3	Tag: 9	Hit:false	Cache:[5, 4][5, 4][3, 1][1, 9]
+Address:388	BlkOfs:0	Set:1	Tag: 28	Hit:false	Cache:[5, 4][4, 28][3, 1][1, 9]
+Address:18c	BlkOfs:1	Set:1	Tag: 12	Hit:false	Cache:[5, 4][28, 12][3, 1][1, 9]
+Pass 2 hits:7 = 50%
+Pass 2 misses:7 = 50%
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Problem 8.10d
+Address:74	BlkOfs:1	Set:3	Tag: 1	Hit:false	Cache:[][][][1]
+Address:a0	BlkOfs:0	Set:2	Tag: 2	Hit:false	Cache:[][][2][1]
+Address:78	BlkOfs:2	Set:3	Tag: 1	Hit:true	Cache:[][][2][1]
+Address:38c	BlkOfs:3	Set:0	Tag: 14	Hit:false	Cache:[14][][2][1]
+Address:ac	BlkOfs:3	Set:2	Tag: 2	Hit:true	Cache:[14][][2][1]
+Address:84	BlkOfs:1	Set:0	Tag: 2	Hit:false	Cache:[2][][2][1]
+Address:88	BlkOfs:2	Set:0	Tag: 2	Hit:true	Cache:[2][][2][1]
+Address:8c	BlkOfs:3	Set:0	Tag: 2	Hit:true	Cache:[2][][2][1]
+Address:7c	BlkOfs:3	Set:3	Tag: 1	Hit:true	Cache:[2][][2][1]
+Address:34	BlkOfs:1	Set:3	Tag: 0	Hit:false	Cache:[2][][2][0]
+Address:38	BlkOfs:2	Set:3	Tag: 0	Hit:true	Cache:[2][][2][0]
+Address:13c	BlkOfs:3	Set:3	Tag: 4	Hit:false	Cache:[2][][2][4]
+Address:388	BlkOfs:2	Set:0	Tag: 14	Hit:false	Cache:[14][][2][4]
+Address:18c	BlkOfs:3	Set:0	Tag: 6	Hit:false	Cache:[6][][2][4]
+Pass 1 hits:6 = 42.8571%
+Pass 1 misses:8 = 57.1429%
+
+Address:74	BlkOfs:1	Set:3	Tag: 1	Hit:false	Cache:[6][][2][1]
+Address:a0	BlkOfs:0	Set:2	Tag: 2	Hit:true	Cache:[6][][2][1]
+Address:78	BlkOfs:2	Set:3	Tag: 1	Hit:true	Cache:[6][][2][1]
+Address:38c	BlkOfs:3	Set:0	Tag: 14	Hit:false	Cache:[14][][2][1]
+Address:ac	BlkOfs:3	Set:2	Tag: 2	Hit:true	Cache:[14][][2][1]
+Address:84	BlkOfs:1	Set:0	Tag: 2	Hit:false	Cache:[2][][2][1]
+Address:88	BlkOfs:2	Set:0	Tag: 2	Hit:true	Cache:[2][][2][1]
+Address:8c	BlkOfs:3	Set:0	Tag: 2	Hit:true	Cache:[2][][2][1]
+Address:7c	BlkOfs:3	Set:3	Tag: 1	Hit:true	Cache:[2][][2][1]
+Address:34	BlkOfs:1	Set:3	Tag: 0	Hit:false	Cache:[2][][2][0]
+Address:38	BlkOfs:2	Set:3	Tag: 0	Hit:true	Cache:[2][][2][0]
+Address:13c	BlkOfs:3	Set:3	Tag: 4	Hit:false	Cache:[2][][2][4]
+Address:388	BlkOfs:2	Set:0	Tag: 14	Hit:false	Cache:[14][][2][4]
+Address:18c	BlkOfs:3	Set:0	Tag: 6	Hit:false	Cache:[6][][2][4]
+Pass 2 hits:7 = 50%
+Pass 2 misses:7 = 50%
